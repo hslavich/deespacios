@@ -1,4 +1,5 @@
 import ChatBot from "react-simple-chatbot";
+import "./Chatbot.scss";
 
 const sinCertificado = [
   {
@@ -64,7 +65,20 @@ const steps = [
 ];
 
 function Chatbot() {
-  return <ChatBot floating={true} steps={steps} />;
+  return (
+    <ChatBot
+      className="Chatbot"
+      floating={true}
+      steps={steps}
+      bubbleStyle={{
+        textAlign: "left",
+        maxWidth: "70%",
+      }}
+      style={{
+        fontFamily: "inherit",
+      }}
+    />
+  );
 }
 
 export default Chatbot;

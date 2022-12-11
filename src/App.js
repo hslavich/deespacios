@@ -5,10 +5,12 @@ import Chatbot from "./components/shared/Chatbot";
 
 function App() {
   return (
-    <div className="App">
-      <Index />
+    <>
+      <div className="App">
+        <Index />
+      </div>
       <Chatbot />
-    </div>
+    </>
   );
 }
 
