@@ -12,8 +12,8 @@ const MyNavbar = () => (
   <Navbar bg="white" className="MyNavbar">
     <Container>
       <Navbar.Brand href="#home">
-        <img src={logo} alt="logo" />
-        <img src={logo2} alt="logo2" />
+        <img height={58} src={logo} alt="logo" />
+        <img className="ms-2" height={52} src={logo2} alt="logo2" />
       </Navbar.Brand>
       <Nav className="me-auto">
         <Nav.Link href="#home">¿Quiénes somos?</Nav.Link>

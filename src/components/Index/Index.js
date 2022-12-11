@@ -9,7 +9,7 @@ import home from "../../assets/home.png";
 const Index = () => (
   <div className="Index">
     <MyNavbar />
-    <img src={banner} alt="banner" />
+    <img className="img-fluid" src={banner} alt="banner" />
     <div className="title-container">
       <h1 className="title">Espacio Psicológico Integral</h1>
     </div>
