@@ -16,9 +16,13 @@ const MyNavbar = () => (
         <img src={logo2} alt="logo2" />
       </Navbar.Brand>
       <Nav className="me-auto">
-        <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#features">Features</Nav.Link>
-        <Nav.Link href="#pricing">Pricing</Nav.Link>
+        <Nav.Link href="#home">¿Quiénes somos?</Nav.Link>
+        <Nav.Link href="#features">
+          ¿Qué es el acompañamiento terapéutico?
+        </Nav.Link>
+        <Nav.Link href="#pricing">¿Cómo trabajamos?</Nav.Link>
+        <Nav.Link href="#pricing">Consultorios externos</Nav.Link>
+        <Nav.Link href="#pricing">Talleres</Nav.Link>
       </Nav>
     </Container>
   </Navbar>

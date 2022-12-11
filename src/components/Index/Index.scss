@@ -1,1 +1,22 @@
-.Index {}
+.Index {
+  .title-container {
+    background-color: rgb(75, 159, 153);
+    color: white;
+
+    .title {
+      font-size: 2.5rem;
+      font-weight: 600;
+      margin: 0;
+      padding: 0.5rem;
+    }
+  }
+
+  .section-text {
+    color: rgb(101, 101, 101);
+
+    h2 {
+      padding-top: 10px;
+      color: rgb(94, 24, 125);
+    }
+  }
+}
