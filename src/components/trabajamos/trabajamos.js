@@ -1,12 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import './trabajamos.scss';
+import React from "react";
+import PropTypes from "prop-types";
+import "./trabajamos.scss";
 
-const Trabajamos = () => (
-  <div className="trabajamos">
-    Trabajamos Component
-  </div>
-);
+import Title from "../shared/title";
+
+const Trabajamos = () => <Title text="¿Cómo trabajamos?"></Title>;
 
 Trabajamos.propTypes = {};
 

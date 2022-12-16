@@ -1,11 +1,11 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import './terapeutico.scss';
+import React from "react";
+import PropTypes from "prop-types";
+import "./terapeutico.scss";
+
+import Title from "../shared/title";
 
 const Terapeutico = () => (
-  <div className="terapeutico">
-    Terapeutico Component
-  </div>
+  <Title text="¿Qué es el acompañamiento terapéutico?"></Title>
 );
 
 Terapeutico.propTypes = {};
