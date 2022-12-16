@@ -1,8 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
 
-import Index from "../components/Index/Index";
-import Somos from "../components/Somos/Somos";
 import App from "../App";
+import Index from "../components/index";
+import Somos from "../components/somos/somos";
+import Terapeutico from "../components/terapeutico/terapeutico";
+import Trabajamos from "../components/trabajamos/trabajamos";
+import Consultorios from "../components/consultorios/consultorios";
+import Talleres from "../components/talleres/talleres";
 
 const Router = createBrowserRouter([
   {
@@ -13,6 +17,22 @@ const Router = createBrowserRouter([
       {
         path: "/quienes-somos",
         element: <Somos />,
+      },
+      {
+        path: "/acompañamiento-terapeutico",
+        element: <Terapeutico />,
+      },
+      {
+        path: "/como-trabajamos",
+        element: <Trabajamos />,
+      },
+      {
+        path: "/consultorios-externos",
+        element: <Consultorios />,
+      },
+      {
+        path: "/talleres",
+        element: <Talleres />,
       },
     ],
   },

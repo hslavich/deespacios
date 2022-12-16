@@ -1,5 +1,5 @@
 import React from "react";
-import "./MyNavbar.scss";
+import "./myNavbar.scss";
 
 import { Link } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
@@ -20,16 +20,16 @@ const MyNavbar = () => (
         <Link to="quienes-somos" className="nav-link">
           ¿Quiénes somos?
         </Link>
-        <Link to="quienes-somos" className="nav-link">
+        <Link to="acompañamiento-terapeutico" className="nav-link">
           ¿Qué es el acompañamiento terapéutico?
         </Link>
-        <Link to="quienes-somos" className="nav-link">
+        <Link to="como-trabajamos" className="nav-link">
           ¿Cómo trabajamos?
         </Link>
-        <Link to="quienes-somos" className="nav-link">
+        <Link to="consultorios-externos" className="nav-link">
           Consultorios externos
         </Link>
-        <Link to="quienes-somos" className="nav-link">
+        <Link to="talleres" className="nav-link">
           Talleres
         </Link>
       </Nav>

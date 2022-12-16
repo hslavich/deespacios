@@ -1,5 +1,5 @@
 import ChatBot from "react-simple-chatbot";
-import "./Chatbot.scss";
+import "./chatbot.scss";
 
 const sinCertificado = [
   {

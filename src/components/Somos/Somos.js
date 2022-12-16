@@ -1,12 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import './Somos.scss';
+import React from "react";
+import PropTypes from "prop-types";
+import "./somos.scss";
 
-const Somos = () => (
-  <div className="Somos">
-    Somos Component
-  </div>
-);
+const Somos = () => <div className="Somos">Somos Component</div>;
 
 Somos.propTypes = {};
 

@@ -1,8 +1,8 @@
 import "./App.scss";
 import { Outlet } from "react-router-dom";
 
-import MyNavbar from "./components/shared/MyNavbar";
-import Chatbot from "./components/shared/Chatbot";
+import MyNavbar from "./components/shared/myNavbar";
+import Chatbot from "./components/shared/chatbot";
 
 function App() {
   return (

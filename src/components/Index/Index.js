@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "./Index.scss";
+import "./index.scss";
 
 import banner from "../../assets/banner.png";
 import home from "../../assets/home.png";
