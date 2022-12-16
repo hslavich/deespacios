@@ -1,7 +1,7 @@
 {
   "name": "deespacios",
   "version": "0.1.0",
-  "homepage": "https://hslavich.github.io/deespacios",
+  "homepage": "https://deespacios.com.ar/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

@@ -1,4 +1,5 @@
 import ChatBot from "react-simple-chatbot";
+import { ThemeProvider } from "styled-components";
 import "./chatbot.scss";
 
 const sinCertificado = [
@@ -64,20 +65,34 @@ const steps = [
   ...sinCertificado,
 ];
 
+const theme = {
+  background: "#f5f8fb",
+  fontFamily: "Helvetica Neue",
+  headerBgColor: "rgb(94, 24, 125)",
+  headerFontColor: "#fff",
+  headerFontSize: "15px",
+  botBubbleColor: "rgb(94, 24, 125)",
+  botFontColor: "#fff",
+  userBubbleColor: "#fff",
+  userFontColor: "#4a4a4a",
+};
+
 function Chatbot() {
   return (
-    <ChatBot
-      className="Chatbot"
-      floating={true}
-      steps={steps}
-      bubbleStyle={{
-        textAlign: "left",
-        maxWidth: "70%",
-      }}
-      style={{
-        fontFamily: "inherit",
-      }}
-    />
+    <ThemeProvider theme={theme}>
+      <ChatBot
+        className="Chatbot"
+        floating={true}
+        steps={steps}
+        bubbleStyle={{
+          textAlign: "left",
+          maxWidth: "70%",
+        }}
+        style={{
+          fontFamily: "inherit",
+        }}
+      />
+    </ThemeProvider>
   );
 }
 
