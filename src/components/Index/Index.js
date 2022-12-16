@@ -2,13 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./Index.scss";
 
-import MyNavbar from "../shared/MyNavbar";
 import banner from "../../assets/banner.png";
 import home from "../../assets/home.png";
 
 const Index = () => (
   <div className="Index">
-    <MyNavbar />
     <img className="img-fluid" src={banner} alt="banner" />
     <div className="title-container">
       <h1 className="title">Espacio Psicológico Integral</h1>

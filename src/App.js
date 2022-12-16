@@ -1,13 +1,15 @@
 import "./App.scss";
+import { Outlet } from "react-router-dom";
 
-import Index from "./components/Index/Index";
+import MyNavbar from "./components/shared/MyNavbar";
 import Chatbot from "./components/shared/Chatbot";
 
 function App() {
   return (
     <>
       <div className="App">
-        <Index />
+        <MyNavbar />
+        <Outlet />
       </div>
       <Chatbot />
     </>
