@@ -13,57 +13,46 @@ import "./index.scss";
 const Index = () => (
   <div className="Index">
     <>
-      <Container fluid className="px-0">
+      <Container fluid className="">
         <Row>
-          <img className="banner w-100" src={banner} alt="banner" />
-        </Row>
+          <img className="banner" src={banner} alt="banner" />
 
-        <Container fluid className="title-container">
-          <Container>
-            <Row>
-              <Col md={6} className="text-md-start">
-                <h1 className="title">Espacio Psicológico Integral</h1>
-              </Col>
-              <Col md={6} className="text-md-end gap-3">
-                <a className="d-inline-block" href="https://instagram.com">
-                  <img className="icon" src={instagram} alt="instagram" />
-                </a>
-                <a className="d-inline-block" href="https://instagram.com">
-                  <img className="icon" src={facebook} alt="facebook" />
-                </a>
-              </Col>
-            </Row>
+          <Container fluid className="title-container">
+            <Container>
+              <Row>
+                <Col md={6} className="text-md-start">
+                  <h1 className="title">Espacio Psicológico Integral</h1>
+                </Col>
+                <Col md={6} className="text-md-end gap-3">
+                  <a className="d-inline-block" href="https://instagram.com">
+                    <img className="icon" src={instagram} alt="instagram" />
+                  </a>
+                  <a className="d-inline-block" href="https://instagram.com">
+                    <img className="icon" src={facebook} alt="facebook" />
+                  </a>
+                </Col>
+              </Row>
+            </Container>
           </Container>
-        </Container>
+        </Row>
 
         <Row>
           <Col lg={6} className="px-0">
             <img className="img-fluid" src={home} alt="home" />
           </Col>
-          <Col className="section-text">
-            <h2 className="text-start">¿Quiénes somos?</h2>
+          <Col lg={6} className="section-text">
+            <h2 className="text-start mb-3">¿Quiénes somos?</h2>
             <p className="text-start">
-              DeEspacios nace hace 10 años, con un deseo y una convicción: se
-              puede pensar la salud como una construccion. teniendo como
-              premisa. v como etica. que se trata de un procesc relacional y en
-              movimiento.
+              <span className="fw-semibold text-violet">DeEspacios</span> nace
+              en el 2010, y desde entonces acompañamos a mas de 80 familias. La
+              confianza y el trabajo en equipo son lo que nos sostiene desde
+              hace mas de 12 años. Buscamos revolucionar la forma de trabajar en
+              salud, con la convicción de que se trata de una construcción, un
+              proceso relacional y en movimiento.
             </p>
             <p className="text-start">
-              La definición de Salud, según la OMS es "Un estado de completo
-              bienestar físico, mental y social, y no solamente la ausencia de
-              afecciones o enfermedades". Es por eso, que el tratamiento tiene
-              como premisa un sujeto integral, en su aspecto biológico, psíquico
-              y social, en contexto situacional. Pero además, al pensar la salud
-              como un estado, da lugar a la transformación como condición y
-              potencia. Se trata entonces de poner en suspenso el diagnóstico
-              para apostar al surgimiento o bien, al fortalecimiento de las
-              capacidades de esa persona, y habilitando un espacio para la
-              expresión de sus deseos.
-            </p>
-            <p className="text-start">
-              Somos un grupo humano que continúa creciendo profesionalmente, en
-              constante formación. Aprendemos del trabajo con otros y en el
-              intercambio constante.
+              Somos un equipo que continúa creciendo profesional y humanamente.
+              Aprendemos del trabajo con otros y en el intercambio constante.
             </p>
           </Col>
         </Row>

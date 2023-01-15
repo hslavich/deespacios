@@ -16,23 +16,35 @@ const Trabajamos = () => (
       </Row>
     </Container>
     <Title text="Donde trabaja un AT?"></Title>
+    <Container>
+      <Row>
+        <Col className="section-text py-4">
+          <ul>
+            <li>Domicilio</li>
+            <li>En el espacio público</li>
+            <li>Instituciones educativas o CETs</li>
+            <li>Centros de Día</li>
+            <li>Procesos de internación</li>
+          </ul>
+        </Col>
+      </Row>
+    </Container>
   </>
 );
 
 const text = (
   <>
     <p>
-      Cuando de Acompañamiento se trata, se toma la admisión de un paciente y el
-      equipo coordinador evalúa el tratamiento que necesita esa demanda, el
-      abordaje posterior sería el resultado de un tipo de pensamiento
-      horizontal, transversal, logrado a través del debate y la reflexión, con
-      ideas de intervención construidas entre todos los ATs que forman parte del
-      equipo. Dicho espacio de reflexión y de elaboración de estrategias se da
-      en el marco de Supervisiones Grupales, separadas por caso, coordinadas por
-      quienes dirigen dicho espacio. Las mismas suceden de manera mensual. Cada
-      intervención que sugiera alguna modificación del tratamiento, se piensa en
-      conjunto con los terapeutas que trabajan con dicho paciente, y
-      posteriormente se elevan dichas
+      Si ya tenes la indicacion del profesional, acordamos una entrevista y
+      hacemos la admisión. Evaluamos el tratamiento mas conveniente y lo
+      presentamos en un plan de objetivos. Presentamos los papeles en la obra
+      social, y una vez que se autorice, empezamos a trabajar.
+    </p>
+    <p>
+      Tenemos una planilla de datos, donde podes escribir todo lo que creas
+      necesario que sepamos, un consentimiento informado, y un documento donde
+      se explica cómo es el mecanismo administrativo para la presentación de la
+      documentación, y la facturación mensual.
     </p>
   </>
 );

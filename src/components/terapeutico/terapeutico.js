@@ -15,37 +15,72 @@ const Terapeutico = () => (
         <Col className="section-text py-4">{text}</Col>
       </Row>
     </Container>
+    <Title text="¿En qué casos se solicita un AT?"></Title>
+    <Container>
+      <Row>
+        <Col className="section-text py-4">{textAt}</Col>
+      </Row>
+    </Container>
   </>
 );
 
 const text = (
   <>
     <p>
-      Nuestro proyecto se inicia como equipo de Acompañamientos Terapéuticos a
-      domicilio.
+      Nuestro proyecto se inicia como equipo de{" "}
+      <span class="text-decoration-underline">
+        Acompañamientos Terapéuticos
+      </span>{" "}
+      a domicilio. Apuntamos a que la persona pueda desarrollarse y habitar en
+      su ámbito cotidiano con la mayor independencia y autonomía posibles,
+      generar recursos para realizar actividades sociales, recreativas.
+      Desplegar el maximo de su potencial, sea la etapa de vida en la que se
+      encuentre. Se trata de ir mas alla del diagnóstico para apostar al
+      fortalecimiento de las capacidades de esa persona, habilitando un espacio
+      para la expresión de sus deseos.
     </p>
     <p>
-      El mismo se sostiene en los conceptos de salud y sujeto ya mencionados, en
-      principio a los fines de plantearse como un dispositivo alternativo a la
-      internación psiquiátrica, brindándole además, como un espacio contenedor
-      en familias con algún integrante con CUD. Se buscará que el paciente, ya
-      en tratamiento Psicológico o Psiquiátrico, pueda habitar en su ámbito
-      diario de manera socialmente adaptada. A fin de poder convivir en su seno
-      familiar, facilitando recursos y herramientas para sostener de manera
-      autónoma, las actividades de la vida diaria y hábitos de higiene. Incluso
-      en pacientes con tratamiento farmacológico, el AT puede acompañar en la
-      administración y ser garante y evaluador en el proceso de toma de
-      medicación.
+      Niños y niñas en jardines y escuelas, adolescentes atravesando las
+      conflictivas propias de la edad, adultos necesitando algún tipo de sostén
+      emocional, motriz, cognitivo, en rehabilitación, o procesos de
+      externación.
     </p>
     <p>
-      Por otro lado, trabajar en intercambio con los distintos espacios
-      terapéuticos por los que circule.
+      El vínculo con un acompañante, ajeno pero a la vez cercano a lo familiar,
+      permite que surjan deseos e inquietudes, miedos y emociones, que se van
+      trabajando para darle lugar a nuevos proyectos y nuevos caminos.
+    </p>
+    <p class="fst-italic">
+      Acompañamos, respetando los tiempos de cada persona, de manera cuidada y
+      amable.
+    </p>
+  </>
+);
+
+const textAt = (
+  <>
+    <p>
+      Lo debe indicar el profesional de cabecera que guía el tratamiento. Puede
+      ser: Pediatra, Neuróloga/o, Psiquiatra, Psicóloga/o, Psicopedagoga/o o
+      bien, lo pueden indicar desde la institución educativa: Educación inicial,
+      Escuela primaria , secundaria, o la escuela de educación especial. Si
+      nunca te lo indicaron, pero pensas que es necesario, podés conversarlo con
+      el profesional para que lo considere y en ese caso, lo solicite.
     </p>
     <p>
-      La figura de un acompañante, ajeno y a la vez cercano a lo familiar, en un
-      vínculo de confianza y contención, habilita la emergencia de deseos e
-      inquietudes, al mismo tiempo que sostiene para el tratamiento de emociones
-      y afectos de manera cuidada y amable.
+      Para todo aquel que necesite un sostén, afectivo, cognitivo, motriz,
+      comunicacional o conductual.
+    </p>
+    <p>
+      Para personas con dificultades de sociabilidad, fragilidad emocional,
+      depresivas, en crisis vitales, en estado de dependencia socio afectiva,
+      motriz, o cognitiva.
+    </p>
+    <p>En vías de externación, en procesos de resocialización.</p>
+    <p>
+      Personas que requieran de un apoyo para la incorporación de hábitos de
+      higiene, rutinas de la vida diaria, cuidados personales y habilidades
+      sociales.
     </p>
   </>
 );

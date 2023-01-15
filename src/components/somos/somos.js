@@ -26,25 +26,31 @@ const Somos = () => (
 const text = (
   <>
     <p>
-      DeEspacios nace hace 10 años, con un deseo y una convicción: se puede
-      pensar la salud como una construcción, teniendo como premisa, y como
-      ética, que se trata de un proceso relacional y en movimiento.
+      Nos conocimos en la facultad, alla por el año 2002. Trabajamos como
+      acompañantes terapéuticas para los mismos equipos, en el ámbito público y
+      privado, y empezamos a darle cuerpo a una idea: el acompañamiento
+      terapéutico es mucho mas que un sostén domiciliario, es la posibilidad de
+      abrir espacios que se creían imposibles. Prestar voz y ofrecer recursos a
+      la fuerza del deseo de cambiar, de superarse. La limitación no es de la
+      persona, la limitación es el resultado de las barreras que nos pone el
+      mundo.
     </p>
     <p>
-      La definición de Salud, según la OMS es "Un estado de completo bienestar
-      físico, mental y social, y no solamente la ausencia de afecciones o
-      enfermedades". Es por eso, que el tratamiento tiene como premisa un sujeto
-      integral, en su aspecto biológico, psíquico y social, en contexto
-      situacional. Pero además, al pensar la salud como un estado, da lugar a la
-      transformación como condición y potencia. Se trata entonces de poner en
-      suspenso el diagnóstico para apostar al surgimiento o bien, al
-      fortalecimiento de las capacidades de esa persona, y habilitando un
-      espacio para la expresión de sus deseos.
+      Empezamos a coordinar tratamientos de acompañamientos en el 2010, de a
+      poquito fuimos creciendo, e incorporamos a Eli como coordinadora
+      terapéutica. Luego sumamos una orientadora psicopedagógica, y a los
+      referentes en los tratamientos.
     </p>
     <p>
-      Somos un grupo humano que continúa creciendo profesionalmente, en
-      constante formación. Aprendemos del trabajo con otros y en el intercambio
-      constante.
+      Encontramos un lugar, que es como nuestra casa. Alli nos reunimos en
+      equipo, y al tiempo, decidimos abrir la atención en consultorios externos:
+      psicología, psicopedagogía, musicoterapia, y el espacio de talleres y
+      recreación, abiertos a la comunidad, como lugar de intercambio e
+      inclusión.
+    </p>
+    <p>
+      Este equipo sigue creciendo, y nos sentimos honradas de poder acompañar a
+      tantas familias, que ponen su confianza en nosotras.
     </p>
   </>
 );
