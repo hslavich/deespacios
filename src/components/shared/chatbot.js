@@ -22,6 +22,55 @@ const sinCertificado = [
   },
 ];
 
+const conCertificado = [
+  {
+    id: "con-certificado",
+    message:
+      "Los requisitos para autorizar la prestación empiezan con una orden médica indicando cantidad de horas diarias y un resumen del motivo del pedido.",
+    trigger: "obra-social-question",
+  },
+  {
+    id: "obra-social-question",
+    message: "¿Tenés obra social o prepaga?",
+    trigger: "obra-social-options",
+  },
+  {
+    id: "obra-social-options",
+    options: [
+      { value: 1, label: "Si, tengo", trigger: "con-obrasocial" },
+      {
+        value: 2,
+        label: "No, quiero hacerlo de forma particular",
+        trigger: "sin-obrasocial",
+      },
+    ],
+  },
+  {
+    id: "con-obrasocial",
+    message:
+      "Si tenés obra social o prepaga te sugerimos averiguar cómo cubre la prestación. Puede ser como acompañante terapéutico, como prestación de apoyo a domicilio, o como modulo de apoyo a la integración. Segun cómo autorice la prestación, asi debe estar escrito en la orden médica.",
+    trigger: "con-obrasocial2",
+  },
+  {
+    id: "con-obrasocial2",
+    message:
+      "Podés comunicarte con nosotras via mail a deespacios@gmail.com o al telefono +54 9 11 58254361 (Lic. Nuria Carolina Gimenez)",
+    end: true,
+  },
+  {
+    id: "sin-obrasocial",
+    message:
+      "En caso de buscar cobertura particular podes comunicarte con nosotras via mail a deespacios@gmail.com o al telefono +54 9 11 58254361 (Lic. Nuria Carolina Gimenez)",
+    trigger: "sin-obrasocial2",
+  },
+  {
+    id: "sin-obrasocial2",
+    message:
+      "Te dejamos tambien un documento de la Comisión para la Plena Participación e Inclusión de las Personas con Discapacidad (COPIDIS) del Gobierno de la Ciudad de Buenos Aires que explica de manera clara cómo realizar los trámites y cuáles son tus derechos. https://www.buenosaires.gob.ar/sites/gcaba/files/guia_de_informacion__para_personas_con_discapacidad_reducida_2016_1.pdf",
+    end: true,
+  },
+];
+
 const steps = [
   {
     id: "hello",
@@ -30,7 +79,8 @@ const steps = [
   },
   {
     id: "presentation",
-    message: "DeEspacios es un equipo...",
+    message:
+      "DeEspacios es un equipo de acompañantes terapéuticas que trabajamos en domicilios y también realizamos apoyo externo a la integración en escuelas.",
     trigger: "question1",
   },
   {
@@ -58,11 +108,12 @@ const steps = [
   {
     id: "options2",
     options: [
-      { value: 1, label: "Si", trigger: "sin-certificado" },
+      { value: 1, label: "Si", trigger: "con-certificado" },
       { value: 2, label: "No", trigger: "sin-certificado" },
     ],
   },
   ...sinCertificado,
+  ...conCertificado,
 ];
 
 const theme = {
