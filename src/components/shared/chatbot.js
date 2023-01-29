@@ -128,10 +128,12 @@ const theme = {
   userFontColor: "#4a4a4a",
 };
 
-function Chatbot() {
+function Chatbot({ opened, toggleOpen }) {
   return (
     <ThemeProvider theme={theme}>
       <ChatBot
+        opened={opened}
+        toggleFloating={toggleOpen}
         className="Chatbot"
         floating={true}
         steps={steps}

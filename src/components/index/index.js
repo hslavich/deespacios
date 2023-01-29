@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useOutletContext } from "react-router-dom";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -11,8 +12,10 @@ import btnChat from "../../assets/btn-chat.png";
 import instagram from "../../assets/instagram.png";
 import "./index.scss";
 
-const Index = ({ onChatClick }) => {
+const Index = () => {
   const [show, setShow] = useState(false);
+  const [opened, toggleOpen] = useOutletContext();
+
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
@@ -46,7 +49,7 @@ const Index = ({ onChatClick }) => {
             <Col lg={6} className="px-0 text-start">
               <div class="img-container">
                 <img className="img-fluid" src={home} alt="home" />
-                <button class="btn btn-chat" onClick={onChatClick}>
+                <button class="btn btn-chat" onClick={toggleOpen}>
                   <img src={btnChat} alt="chat" />
                 </button>
               </div>
