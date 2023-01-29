@@ -28,11 +28,11 @@ const MyNavbar = () => (
           <Link to="como-trabajamos" className="nav-link">
             ¿Cómo trabajamos?
           </Link>
-          <Link to="consultorios-externos" className="nav-link">
-            Consultorios externos
-          </Link>
           <Link to="talleres" className="nav-link">
             Talleres
+          </Link>
+          <Link to="trabaja-con-nosotras" className="nav-link">
+            Trabaja con nosotras
           </Link>
         </Nav>
       </Navbar.Collapse>

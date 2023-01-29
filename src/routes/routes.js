@@ -7,6 +7,7 @@ import Terapeutico from "../components/terapeutico/terapeutico";
 import Trabajamos from "../components/trabajamos/trabajamos";
 import Consultorios from "../components/consultorios/consultorios";
 import Talleres from "../components/talleres/talleres";
+import TrabajaNosotros from "../components/trabajaNosotros/trabajaNosotros";
 
 const Router = createHashRouter([
   {
@@ -33,6 +34,10 @@ const Router = createHashRouter([
       {
         path: "/talleres",
         element: <Talleres />,
+      },
+      {
+        path: "/trabaja-con-nosotras",
+        element: <TrabajaNosotros />,
       },
     ],
   },

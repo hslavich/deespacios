@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Title from "../shared/title";
+import Consultorios from "../consultorios/consultorios";
 
 import "./trabajamos.scss";
 
@@ -29,6 +30,7 @@ const Trabajamos = () => (
         </Col>
       </Row>
     </Container>
+    <Consultorios />
   </>
 );
 
