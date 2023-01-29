@@ -9,6 +9,7 @@ import "./somos.scss";
 
 import directoras from "../../assets/directoras.png";
 import logo from "../../assets/logo.png";
+import Equipo from "../../assets/equipo/index";
 
 const Somos = () => (
   <>
@@ -26,6 +27,29 @@ const Somos = () => (
             <li>Lic. Nuria Carolina Gimenez </li>
             <li>Lic. Virginia Zienka Hogan</li>
           </ul>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <img src={Equipo.Equipo1} alt="equipo1"></img>
+        </Col>
+        <Col>
+          <img src={Equipo.Equipo2} alt="equipo2"></img>
+        </Col>
+        <Col>
+          <img src={Equipo.Equipo3} alt="equipo3"></img>
+        </Col>
+        <Col>
+          <img src={Equipo.Equipo4} alt="equipo4"></img>
+        </Col>
+        <Col>
+          <img src={Equipo.Equipo5} alt="equipo5"></img>
+        </Col>
+        <Col>
+          <img src={Equipo.Equipo6} alt="equipo6"></img>
+        </Col>
+        <Col>
+          <img src={Equipo.Equipo7} alt="equipo7"></img>
         </Col>
       </Row>
     </Container>
