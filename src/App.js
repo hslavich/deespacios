@@ -16,7 +16,7 @@ function App() {
     <>
       <div className="App">
         <MyNavbar />
-        <Outlet context={[opened, toggleOpen]} />
+        <Outlet context={[toggleOpen]} />
       </div>
       <Chatbot opened={opened} toggleOpen={toggleOpen} />
     </>

@@ -10,11 +10,12 @@ import banner from "../../assets/banner.png";
 import home from "../../assets/home.png";
 import btnChat from "../../assets/btn-chat.png";
 import instagram from "../../assets/instagram.png";
+import popup from "../../assets/popup.jpg";
 import "./index.scss";
 
 const Index = () => {
-  const [show, setShow] = useState(false);
-  const [opened, toggleOpen] = useOutletContext();
+  const [show, setShow] = useState(true);
+  const [toggleOpen] = useOutletContext();
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -73,9 +74,11 @@ const Index = () => {
           </Row>
         </Container>
       </>
-      <Modal show={show} onHide={handleClose}>
+      <Modal show={show} onHide={handleClose} size="lg" fullscreen="lg-down">
         <Modal.Header closeButton></Modal.Header>
-        <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+        <Modal.Body>
+          <img src={popup} alt="popup" />
+        </Modal.Body>
       </Modal>
     </div>
   );
