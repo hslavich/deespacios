@@ -8,6 +8,7 @@ import Title from "../shared/title";
 import "./somos.scss";
 
 import directoras from "../../assets/directoras.png";
+import logo from "../../assets/logo.png";
 
 const Somos = () => (
   <>
@@ -16,7 +17,15 @@ const Somos = () => (
       <Row>
         <Col className="py-4 section-text">{text}</Col>
         <Col md={4}>
-          <img className="img-fluid" src={directoras} alt="directoras"></img>
+          <img
+            className="img-directoras img-fluid"
+            src={directoras}
+            alt="directoras"
+          ></img>
+          <ul class="nombres">
+            <li>Lic. Nuria Carolina Gimenez </li>
+            <li>Lic. Virginia Zienka Hogan</li>
+          </ul>
         </Col>
       </Row>
     </Container>
@@ -52,6 +61,9 @@ const text = (
       Este equipo sigue creciendo, y nos sentimos honradas de poder acompañar a
       tantas familias, que ponen su confianza en nosotras.
     </p>
+    <div class="mx-auto text-center">
+      <img src={logo} alt="logo"></img>
+    </div>
   </>
 );
 

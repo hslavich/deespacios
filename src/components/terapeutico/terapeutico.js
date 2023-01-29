@@ -43,7 +43,7 @@ const text = (
       Niños y niñas en jardines y escuelas, adolescentes atravesando las
       conflictivas propias de la edad, adultos necesitando algún tipo de sostén
       emocional, motriz, cognitivo, en rehabilitación, o procesos de
-      externación.
+      estereorización.
     </p>
     <p>
       El vínculo con un acompañante, ajeno pero a la vez cercano a lo familiar,
