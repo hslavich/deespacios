@@ -2,11 +2,14 @@ import React, { useState } from "react";
 import { useOutletContext } from "react-router-dom";
 
 import Container from "react-bootstrap/Container";
+import Carousel from "react-bootstrap/Carousel";
+
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Modal from "react-bootstrap/Modal";
 
 import banner from "../../assets/banner.png";
+import banner2 from "../../assets/banner2.png";
 import home from "../../assets/home.png";
 import btnChat from "../../assets/btn-chat.png";
 import instagram from "../../assets/instagram.png";
@@ -23,10 +26,16 @@ const Index = () => {
   return (
     <div className="Index">
       <>
+        <Carousel variant="dark" fade data-bs-ride="carousel">
+          <Carousel.Item>
+            <img className="d-block w-100 banner" src={banner2} alt="banner2" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="d-block w-100 banner" src={banner} alt="banner" />
+          </Carousel.Item>
+        </Carousel>
         <Container fluid className="">
           <Row>
-            <img className="banner" src={banner} alt="banner" />
-
             <Container fluid className="title-container">
               <Container>
                 <Row>
