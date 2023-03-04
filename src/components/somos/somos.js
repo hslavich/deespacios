@@ -64,10 +64,12 @@ const text = (
       privado, y empezamos a darle cuerpo a una idea: el acompañamiento
       terapéutico es mucho mas que un sostén domiciliario, es la posibilidad de
       abrir espacios que se creían imposibles. Prestar voz y ofrecer recursos a
-      la fuerza del deseo de cambiar, de superarse. La limitación no es de la
-      persona, la limitación es el resultado de las barreras que nos pone el
-      mundo.
+      la fuerza del deseo de cambiar, de superarse.
     </p>
+    <blockquote>
+      La limitación no es de la persona, la limitación es el resultado de las
+      barreras que nos pone el mundo.
+    </blockquote>
     <p>
       Empezamos a coordinar tratamientos de acompañamientos en el 2010, de a
       poquito fuimos creciendo, e incorporamos a Eli como coordinadora

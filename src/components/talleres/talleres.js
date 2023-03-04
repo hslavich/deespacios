@@ -20,21 +20,13 @@ const Talleres = () => (
 
 const text = (
   <>
-    <h3>TALLERES DE ESTIMULACION COGNITIVA</h3>
-    <h3>TALLER "APRENDO JUGANDO"</h3>
+    <h3>Taller de juegos para niños y niñas</h3>
+    <h3>Taller de danzaterapia para adolescentes y adultos</h3>
+    <h3>Taller de estimulación cognitiva para adultos mayores</h3>
+    <h3>Talleres grupales de apoyo escolar</h3>
     <p>
-      Es un espacio de Taller grupal, destinado a niños y adolescentes, donde se
-      apunta a estimular el aprendizaje, a través del juego creativo,
-      favoreciendo la comunicación e interacción entre pares, ya sea oral,
-      gestual o verbal, a través de la expresión creativa. Funciona a modo de
-      apoyatura pedagógica en pacientes con problemas de aprendizaje, que se
-      encuentren con dificultades ya sean vinculares, o por algún tipo de
-      retraso cognitivo. Es un espacio que se propone como alternativa al modelo
-      clásico de apoyo escolar (clases particulares), el paciente podrá también
-      realizar o completar tareas que proponga la escuela o el jardín.
+      y mucho mas que vas a ir encontrando en nuestro Instagram todos los meses
     </p>
-    <h3>TALLER DE ORIENTACIÓN VOCACIONAL</h3>
-    <p>Dirigido a púberes y adolescentes.</p>
   </>
 );
 

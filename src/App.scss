@@ -24,3 +24,21 @@
 .text-violet {
   color: rgb(94, 24, 125);
 }
+
+blockquote {
+  padding: 1.2em 30px 1.2em 50px;
+  border-left: 8px solid #78c0a8;
+  background: #ededed;
+  font-style: italic;
+  position: relative;
+}
+
+blockquote::before {
+  font-family: Arial;
+  content: "\201C";
+  color: #78c0a8;
+  font-size: 4em;
+  position: absolute;
+  left: 10px;
+  top: -10px;
+}

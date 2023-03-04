@@ -24,18 +24,7 @@ const text = (
       Terapia Psicológica Individual: dirigido a niños, adolescentes y adultos
     </li>
     <li>Psicopedagogía</li>
-    <li>Musicoterapia</li>
     <li>Orientación a Padres y Madres. Individual o grupal</li>
-    <li>Psiquiatría: Dirigido a adolescentes y adultos</li>
-    <li>
-      Talleres grupales: para niños y niñas, adolescentes y adultos. De juego.
-      De musica. De estimulación cognitiva. (Ver mas detalles en sección
-      novedades).
-    </li>
-    <li>
-      Taller de Orientación Vocacional: Grupal. Virtual. Dirigido a púberes y
-      adolescentes.
-    </li>
   </ol>
 );
 

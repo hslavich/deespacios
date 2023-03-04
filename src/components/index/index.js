@@ -65,7 +65,7 @@ const Index = () => {
                 trabajar en salud, con la convicción de que se trata de una
                 construcción, un proceso relacional y en movimiento.
               </p>
-              <p className="text-start">
+              <p className="text-start fst-italic">
                 Somos un equipo que continúa creciendo profesional y
                 humanamente. Aprendemos del trabajo con otros y en el
                 intercambio constante.

@@ -21,11 +21,11 @@ const Trabajamos = () => (
       <Row>
         <Col className="section-text py-4">
           <ul>
-            <li>Domicilio</li>
+            <li>En el domicilio</li>
             <li>En el espacio público</li>
-            <li>Instituciones educativas o CETs</li>
-            <li>Centros de Día</li>
-            <li>Procesos de internación</li>
+            <li>En Instituciones educativas o CETs</li>
+            <li>En Centros de Día</li>
+            <li>En Clínicas y Hospitales</li>
           </ul>
         </Col>
       </Row>
@@ -37,7 +37,7 @@ const Trabajamos = () => (
 const text = (
   <>
     <p>
-      Si ya tenes la indicacion del profesional, acordamos una entrevista y
+      Si ya tenés la indicación del profesional, acordamos una entrevista y
       hacemos la admisión. Evaluamos el tratamiento mas conveniente y lo
       presentamos en un plan de objetivos. Presentamos los papeles en la obra
       social, y una vez que se autorice, empezamos a trabajar.

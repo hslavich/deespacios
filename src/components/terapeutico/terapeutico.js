@@ -34,7 +34,7 @@ const text = (
       a domicilio. Apuntamos a que la persona pueda desarrollarse y habitar en
       su ámbito cotidiano con la mayor independencia y autonomía posibles,
       generar recursos para realizar actividades sociales, recreativas.
-      Desplegar el maximo de su potencial, sea la etapa de vida en la que se
+      Desplegar el máximo de su potencial, sea la etapa de vida en la que se
       encuentre. Se trata de ir mas alla del diagnóstico para apostar al
       fortalecimiento de las capacidades de esa persona, habilitando un espacio
       para la expresión de sus deseos.
@@ -63,24 +63,11 @@ const textAt = (
       Lo debe indicar el profesional de cabecera que guía el tratamiento. Puede
       ser: Pediatra, Neuróloga/o, Psiquiatra, Psicóloga/o, Psicopedagoga/o o
       bien, lo pueden indicar desde la institución educativa: Educación inicial,
-      Escuela primaria , secundaria, o la escuela de educación especial. Si
-      nunca te lo indicaron, pero pensas que es necesario, podés conversarlo con
-      el profesional para que lo considere y en ese caso, lo solicite.
+      Escuela primaria , secundaria, o la escuela de educación especial.
     </p>
     <p>
-      Para todo aquel que necesite un sostén, afectivo, cognitivo, motriz,
-      comunicacional o conductual.
-    </p>
-    <p>
-      Para personas con dificultades de sociabilidad, fragilidad emocional,
-      depresivas, en crisis vitales, en estado de dependencia socio afectiva,
-      motriz, o cognitiva.
-    </p>
-    <p>En vías de externación, en procesos de resocialización.</p>
-    <p>
-      Personas que requieran de un apoyo para la incorporación de hábitos de
-      higiene, rutinas de la vida diaria, cuidados personales y habilidades
-      sociales.
+      Si nunca te lo indicaron, pero pensas que es necesario, podés conversar
+      con el profesional para que lo considere y en ese caso, lo solicite.
     </p>
   </>
 );
