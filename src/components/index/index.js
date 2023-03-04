@@ -10,6 +10,7 @@ import Modal from "react-bootstrap/Modal";
 
 import banner from "../../assets/banner.png";
 import banner2 from "../../assets/banner2.png";
+import contacto from "../../assets/contacto.png";
 import home from "../../assets/home.png";
 import btnChat from "../../assets/btn-chat.png";
 import instagram from "../../assets/instagram.png";
@@ -42,7 +43,14 @@ const Index = () => {
                   <Col md={6} className="text-md-start">
                     <h1 className="title">Espacio Psicológico Integral</h1>
                   </Col>
-                  <Col md={6} className="text-md-end gap-3">
+                  <Col md={5} className="text-md-end gap-3">
+                    <img
+                      className="mt-3 img-fluid"
+                      src={contacto}
+                      alt="contacto"
+                    />
+                  </Col>
+                  <Col md={1} className="text-md-end gap-3">
                     <a
                       className="d-inline-block"
                       href="https://instagram.com/deespacios.centroterapeutico"
