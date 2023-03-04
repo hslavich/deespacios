@@ -12,7 +12,7 @@ const TrabajaNosotros = () => (
     <Title text="Trabaja con nosotras"></Title>
     <Container>
       <Row className="justify-content-center">
-        <Col xs={6} className="section-text py-4">
+        <Col md={6} className="section-text py-4">
           {text}
         </Col>
       </Row>
